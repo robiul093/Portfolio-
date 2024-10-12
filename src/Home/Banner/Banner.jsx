@@ -16,8 +16,8 @@ const Banner = () => {
                     <p className="">I am a passionate front-end developer specializing in creating responsive, user-friendly web applications using React. With a strong foundation in HTML, CSS, and JavaScript, I love turning ideas into interactive digital experiences. Let's build something amazing together!</p>
                     
                     <div className="flex gap-7 mt-5">
-                        <button className="btn font-normal bg-transparent text-white hover:bg-slate-500 border-2 tracking-[1.5px]">Resume</button>
-                        <button className="btn font-normal bg-transparent text-white hover:bg-slate-500 border-2">Let's Talk</button>
+                        <button className="btn font-normal bg-transparent text-white hover:bg-black hover:bg-opacity-35 border-2 tracking-[1.5px]">Resume</button>
+                        <button className="btn font-normal bg-transparent text-white hover:bg-black hover:bg-opacity-35 border-2">Let's Talk</button>
                     </div>
                 </div>
             </div>
