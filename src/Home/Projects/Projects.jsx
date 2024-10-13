@@ -1,22 +1,23 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import portfolio from "../../assets/portfolio.png"
+import surveyHub from "../../assets/surveyHub.png"
 
 const projects = [
   {
     title: 'SurveyHub',
     description: 'A dynamic survey platform where users can create, vote, and comment on surveys. Built with React, Tailwind CSS, Firebase, and Stripe.',
     technologies: ['React', 'Tailwind CSS', 'Firebase', 'Stripe'],
-    image: 'https://via.placeholder.com/300', // Replace with your project image URL
-    demoLink: 'https://your-live-demo-link.com',
-    codeLink: 'https://github.com/your-repository-link',
+    image: `${surveyHub}`,
+    demoLink: 'https://assignment-12-33727.web.app/',
+    codeLink: 'https://github.com/robiul093/assignment-12-client',
   },
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website to showcase my projects and skills, developed using React and Tailwind CSS.',
     technologies: ['React', 'Tailwind CSS'],
     image: `${portfolio}`,
-    demoLink: 'https://your-live-demo-link.com',
-    codeLink: 'https://github.com/your-repository-link',
+    demoLink: 'https://portfolio-robiul.netlify.app/',
+    codeLink: 'https://github.com/robiul093/Portfolio-',
   },
   // Add more projects as needed
 ];
